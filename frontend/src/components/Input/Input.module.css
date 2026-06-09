@@ -1,0 +1,8 @@
+.datepicker::-webkit-calendar-picker-indicator {
+  @apply flex items-center justify-center
+    p-2
+    bg-[#8257e5]
+    cursor-pointer
+    rounded-lg
+    mr-2;
+}

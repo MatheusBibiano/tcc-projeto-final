@@ -1,0 +1,7 @@
+.radio:checked + label {
+  @apply border-[#996DFF] bg-[#E4DCF5]/10;
+}
+
+.radio:checked + label > svg {
+  @apply text-[#996DFF];
+}

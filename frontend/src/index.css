@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply lg:text-base
+  md:text-sm;
+}
+
+#root {
+  @apply flex flex-1
+  w-full;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  @apply font-[Inter];
+}
+
+body {
+  @apply flex
+  h-full
+  w-full
+  bg-[#2b292e];
+}
